@@ -17,6 +17,6 @@ function equalto(){
     try {
         result.value = eval(result.value)
     } catch  {
-        result.value = "Syntax Error"
+        result.value = "Error"
     }
 }
